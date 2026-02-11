@@ -1,0 +1,195 @@
+/* Reset and body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #7f9ee7, #182848);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #f2ebeb;
+  user-select: none;
+}
+
+h1 {
+  margin-bottom: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Calculator container */
+.calculator {
+  background: #414b73;
+  border-radius: 25px;
+  box-shadow:
+    5px 5px 20px #161d2f,
+    -5px -5px 20px #2b3555;
+  width: 380px;
+  max-width: 95vw;
+  padding: 30px 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Display/Input styling */
+.display {
+  width: 87%;
+  height: 75px;
+  border: none;
+  border-radius: 20px;
+  font-size: 3rem;
+  color: #f0f0f5;
+  background: linear-gradient(145deg, #33395a, #1b1f33);
+  box-shadow:
+    inset 6px 6px 10px #8e99d8,
+    inset -6px -6px 10px #1d2136;
+  padding: 0 25px;
+  text-align: right;
+  margin-bottom: 30px;
+  user-select: text;
+  outline: none;
+}
+
+/* Buttons grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+/* Base button style */
+button {
+  border: none;
+  border-radius: 18px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 22px 0;
+  color: #c1c1ff;
+  background: linear-gradient(145deg, #2f3351, #202442);
+  box-shadow:
+    8px 8px 15px #171a2a,
+    -8px -8px 15px #373c6e;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+/* Hover effect */
+button:hover {
+  background: linear-gradient(145deg, #3a406f, #202549);
+  color: #e2e2ff;
+  box-shadow:
+    4px 4px 10px #292c4a,
+    -4px -4px 10px #474c81;
+}
+
+/* Pressed effect */
+button:active {
+  box-shadow:
+    inset 4px 4px 6px #292c4a,
+    inset -4px -4px 6px #474c81;
+  background: #1a1d33;
+  color: #c1c1ff;
+}
+
+/* Operators styling */
+button.operator {
+  color: #ffb347;
+  font-weight: 800;
+  background: linear-gradient(145deg, #403e21, #7d682b);
+  box-shadow:
+    0px 0px px #322b12,
+    -8px -8px 18px #b59439;
+}
+
+button.operator:hover {
+  background: linear-gradient(145deg, #674e0a, #ab893a);
+  color: #fff8d1;
+  box-shadow:
+    4px px 0px #4d3e0c,
+    -4px -4px 15px #bfaf56;
+}
+
+button.operator:active {
+  box-shadow:
+    inset 4px 4px 8px #4d3e0c,
+    inset -4px -4px 8px #bfaf56;
+  background: #5c4d0a;
+  color: #eae3ad;
+}
+
+/* Equal button styling */
+button.equal {
+  background: linear-gradient(145deg, #3aa55c, #207e40);
+  color: #d4fbd4;
+  font-weight: 900;
+  box-shadow:
+    8px 8px px #1c4612,
+    -8px -8px 18px #54bb30;
+  grid-column: span 1;
+}
+
+button.equal:hover {
+  background: linear-gradient(145deg, #44d36a, #238d48);
+  box-shadow:
+    4px 4px 15px #2a5c1d,
+    -4px -4px 15px #61cc37;
+  color: #e0f7e0;
+}
+
+button.equal:active {
+  box-shadow:
+    inset 4px 4px 8px #2a5c1d,
+    inset -4px -4px 8px #61cc37;
+  background: #1f551a;
+  color: #b8ddb7;
+}
+
+/* Clear button styling */
+button.clear {
+  background: linear-gradient(145deg, #d54040, #9e2f2f);
+  color: #ffd6d6;
+  font-weight: 900;
+  box-shadow:
+    8px 8px px #7e2323,
+    -8px -8px 18px #cd5757;
+}
+
+button.clear:hover {
+  background: linear-gradient(145deg, #f55555, #b03838);
+  box-shadow:
+    4px 4px 15px #a22222,
+    -4px -4px 15px #e66363;
+  color: #ffefef;
+}
+
+button.clear:active {
+  box-shadow:
+    inset 4px 4px 8px #a22222,
+    inset -4px -4px 8px #e66363;
+  background: #912323;
+  color: #ffbebe;
+}
+
+/* Wide zero button */
+button.zero {
+  grid-column: span 1;
+  /* If you want zero button twice width, change span to 2 */
+}
+
+/* Footer styling */
+footer {
+  margin-top: 36px;
+  font-size: 1rem;
+  color: #bbb;
+  text-align: center;
+  user-select: none;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px #151622;
+  letter-spacing: 0.06em;
+}
