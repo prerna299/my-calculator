@@ -22,7 +22,7 @@ This project performs basic arithmetic operations with a clean and modern UI.
 📱 Responsive design (Works on mobile & desktop)
 🎨 Clean and modern user interface
 
--- 
+
 
 🛠️ **Technologies Used**
 
