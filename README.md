@@ -32,7 +32,7 @@ CSS3 – Styling and layout design
 
 JavaScript (ES6) – Functionality and logic implementation
 
---
+
 
 📂 **Project Structure**
 
@@ -42,7 +42,7 @@ calculator-project/
 ├── style.css
 └── script.js
 
---
+
 
 ⚙️ **How It Works**
 
@@ -54,7 +54,7 @@ JavaScript handles button events and updates the display dynamically.
 
 The result is calculated and shown instantly on the screen.
 
---
+
 
 🌟 **Future Improvements**
 
