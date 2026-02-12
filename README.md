@@ -9,7 +9,7 @@ This project performs basic arithmetic operations with a clean and modern UI.
 
 🔗 https://my-calculator-blond-ten.vercel.app/
 
---
+
 
 📌 **Features**
 
