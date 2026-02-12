@@ -66,10 +66,8 @@ Add dark/light mode toggle
 
 Add sound effects on button click
 
---
+
 
 🙋‍♀️ **Author**
 
 Prerna
-
---
