@@ -3,7 +3,7 @@
 A simple and responsive Calculator built using HTML, CSS, and JavaScript.
 This project performs basic arithmetic operations with a clean and modern UI.
 
---
+
 
 🚀 **Live Demo**
 
