@@ -38,11 +38,8 @@ JavaScript (ES6) – Functionality and logic implementation
 
 calculator-project/
 │
-|
 ├── index.html
-|
 ├── style.css
-|
 └── script.js
 
 
