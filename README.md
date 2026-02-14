@@ -14,19 +14,12 @@ This project performs basic arithmetic operations with a clean and modern UI.
 📌 **Features**
 
 ➕ Addition
-
 ➖ Subtraction
-
 ✖ Multiplication
-
 ➗ Division
-
  Clear (AC) button
- 
 ⌫ Delete last digit
-
 📱 Responsive design (Works on mobile & desktop)
-
 🎨 Clean and modern user interface
 
 
@@ -45,8 +38,11 @@ JavaScript (ES6) – Functionality and logic implementation
 
 calculator-project/
 │
+|
 ├── index.html
+|
 ├── style.css
+|
 └── script.js
 
 
